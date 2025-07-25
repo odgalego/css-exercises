@@ -1,0 +1,19 @@
+.Odd{
+    background-color: rgb(229, 131, 131);
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+
+.Cool{
+    font-size: 24px;
+}
+
+#N2{
+    font-size: 36px;
+    color: rgb(0, 94, 255);
+}
+
+#N4{
+    font-size: 24px;
+    background-color: rgb(87, 255, 168);
+    font-weight: bold;
+}
