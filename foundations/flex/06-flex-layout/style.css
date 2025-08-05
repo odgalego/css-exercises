@@ -24,3 +24,39 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* CHANGES */
+
+a { 
+  text-decoration: none;   /* remove underline from links */
+}
+
+ul {
+  list-style-type: none;  /* remove bullets from list */
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  background-color: rgb(235, 235, 235);
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  gap: 16px;
+}
